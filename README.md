@@ -48,7 +48,6 @@ A **production-ready, fully containerized data platform** with batch ingestion, 
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Architecture
 
@@ -154,10 +153,6 @@ Staging Tables --> Dimension Load (customers, products, dates, devices) --> Fact
 
 ## Quick Start
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/hoangsonww/End-to-End-Data-Pipeline.git
-cd End-to-End-Data-Pipeline
 
 # 2. Create environment file
 cp .env.example .env
@@ -569,10 +564,4 @@ cp .env.example .env
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
-## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-For questions or feedback, reach out on [GitHub](https://github.com/hoangsonww).
